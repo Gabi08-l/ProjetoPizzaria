@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size:cover;
+  background-attachment:fixed;
   /*background-color: blue;
        background-image: url(https://placehold.co/1920x1080);
        background-repeat: no-repeat;
@@ -111,7 +112,7 @@ header {
 }
 
 #btnzap {
-  background: #e7a200;
+  background: #e70000;
   border-radius: 65px;
   padding: 3px 15px;
   font-size: 20px;
@@ -186,7 +187,7 @@ header {
 }
 
 #Delivery {
-  background-color: #ebe7db;
+  background-color: #ffffff;
   margin: 50px 0;
   display: flex;
   justify-content: center;
@@ -212,6 +213,8 @@ header {
   justify-content: center;
   gap: 70px;
   margin: 20px 0;
+  background-color:#d62d46 /* Cor de fundo */
+  padding: 20px; 
 
   & .itens {
     max-width: 250px;
